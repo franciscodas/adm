@@ -1,0 +1,120 @@
+body{
+  
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.315);
+    background: rgba(0, 0, 0, 0.37);
+    margin-top: -8px;
+    padding-top: 4px;
+}
+menu{
+    font-size: 15pt;
+}
+main{
+    background-image: url(../imagens/foto.jpg) ;
+}
+.secao{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items:end;
+    text-align:center;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 20pt;
+    text-shadow: 2px 2px 2px black;
+    
+}
+#img{
+   
+    border-radius: 30%;
+}
+#titulo{
+    font-size: 20pt;
+    color: pink;
+}
+#div{
+    height: 340px;
+    background: rgba(0, 0, 0, 0.11);
+    margin-top: 140px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    border: 1px;
+}
+#texto{
+    background: rgba(136, 235, 181, 0.274);
+}
+#fb{
+ 
+    width: 35px;
+    height: 35px;
+}
+#ita{
+    margin-left: 5px;
+    width: 35px;
+    height: 35px;
+}
+#wats{
+    margin-left: 10px;
+    width: 41px;
+    height: 41px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+}
+#social{
+    display: flex;
+
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    background: rgba(158, 154, 154, 0.349);
+}
+.endereco{
+    display: flex;
+    justify-content: space-between;
+}
+.fanta{
+    margin-left: 40px;
+}
+.ende{
+    margin-right: 40px;
+}
+.copy{
+    text-align: center;
+}
+.ul{
+    margin-top: 2px;
+    list-style: none;
+    display: none;
+}
+#su:hover >.ul{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+ul :hover >a{
+    color: rgb(223, 96, 174);
+}
+a{
+    text-decoration: none;
+    color: rgb(241, 234, 234);
+    font-size: 13pt;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+}
+#su{
+    text-align: center;
+    align-items: center;
+}
